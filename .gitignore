@@ -1,52 +1,38 @@
-# Prerequisites
-*.d
 
-# Object files
-*.o
-*.ko
+/AUTHORS
+/sourceInsight
 *.obj
-*.elf
-
-# Linker output
-*.ilk
+*.o
+*.html
+*.d
+*.lst
+*.txt
+*.htm
+*.pyc
+*.py
+*.bak
+*.vc9
+*.vc6
+*.jpg
+*.ppm
+*.dos
 *.map
-*.exp
+*.axf
+*.dep
+*.crf
+*.uvopt
+*.bin
 
-# Precompiled Headers
-*.gch
-*.pch
+*.svn-base
+*.svn
+*.uvgui.*
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+/components/external/SConscript
+/components/SConscript
+/app/DT3102-CC/V2.5/prj/Out
+/app/DT3102-CC/V2.5/prj/lst
+/app/DT3102-CC/V2.5/doc
+/source project
+/simulation
+/app/DT3102-CC/V2.5/simulation
+/app/DT3102-CC/V2.5/sdk/*.tmp
